@@ -10,8 +10,8 @@
         </author>
         <description>记录生活，总结见闻</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 12 Mar 2024 22:47:18 +0800</pubDate>
-        <lastBuildDate>Tue, 12 Mar 2024 22:47:18 +0800</lastBuildDate>
+        <pubDate>Thu, 14 Mar 2024 08:21:44 +0800</pubDate>
+        <lastBuildDate>Thu, 14 Mar 2024 08:21:44 +0800</lastBuildDate>
         <category term="日常" />
         <category term="编程" />
         <category term="杂谈" />
@@ -20,13 +20,97 @@
         <category term="Starry" />
         <category term="C#" />
         <item>
+            <guid isPermalink="true">https://starryxyj.github.io/2024/03/14/diary/20240314/</guid>
+            <title>2024年3月14日</title>
+            <link>https://starryxyj.github.io/2024/03/14/diary/20240314/</link>
+            <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+            <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+            <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+            <pubDate>Thu, 14 Mar 2024 08:21:44 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;2024-03-14&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-14&#34;&gt;#&lt;/a&gt; 2024-03-14&lt;/h1&gt;
+&lt;h1 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h1&gt;
+&lt;p&gt;今天是 π 节欸&lt;br /&gt;
+虽然不知道为什么会有这种节日&lt;br /&gt;
+也算是把视频剪完了&lt;br /&gt;
+虽然感觉应该没什么人看，就当是做给自己的吧&lt;/p&gt;
+&lt;h1 id=&#34;学习内容总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容总结&#34;&gt;#&lt;/a&gt; 学习内容总结&lt;/h1&gt;
+&lt;h3 id=&#34;英语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#英语&#34;&gt;#&lt;/a&gt; 英语&lt;/h3&gt;
+&lt;p&gt;水了水，做了两三道阅读题，主要起床起晚了，吃完饭已经八点多了。&lt;br /&gt;
+感觉有一点寄，有一篇四题错三题&lt;br /&gt;
+ 555&lt;br /&gt;
+ 还是先背单词去了&lt;/p&gt;
+&lt;h3 id=&#34;物理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#物理&#34;&gt;#&lt;/a&gt; 物理&lt;/h3&gt;
+&lt;p&gt;动态平衡的专题结束了&lt;br /&gt;
+感觉我牛二动力学还可以，就浅浅看了一点，之后做题再发现以下问题吧&lt;br /&gt;
+另外是曲线运动（平抛）开了个头&lt;br /&gt;
+动态平衡的总结的话&lt;br /&gt;
+就是&lt;br /&gt;
+先分析问题&lt;br /&gt;
+多物体时，如果问题不涉及内力就用整体法，或者先用整体法把不涉及内力的问题解决，反正如果涉及内力基本上都要隔离&lt;br /&gt;
+然后多物体隔离分析的话，先分析受力少的，一般都三个力&lt;br /&gt;
+这样都化为单物体三力&lt;s&gt;三笠&lt;/s&gt;动态分析&lt;br /&gt;
+三力分析就三角形&lt;/p&gt;
+&lt;p&gt;重力恒不变&lt;/p&gt;
+&lt;h5 id=&#34;仅一力变向&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仅一力变向&#34;&gt;#&lt;/a&gt; 仅一力变向&lt;/h5&gt;
+&lt;p&gt;反向延长 + 平移&lt;/p&gt;
+&lt;h5 id=&#34;二力变向&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二力变向&#34;&gt;#&lt;/a&gt; 二力变向&lt;/h5&gt;
+&lt;p&gt;反向延长 + 平移&lt;br /&gt;
+相似三角形&lt;/p&gt;
+&lt;h5 id=&#34;二力变向夹角不变&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二力变向夹角不变&#34;&gt;#&lt;/a&gt; 二力变向，夹角不变&lt;/h5&gt;
+&lt;p&gt;正弦定理&lt;br /&gt;
+或者&lt;br /&gt;
+反向延长 + 平移 + 做外接圆&lt;/p&gt;
+&lt;p&gt;拿下&lt;/p&gt;
+&lt;h3 id=&#34;ue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ue&#34;&gt;#&lt;/a&gt; UE&lt;/h3&gt;
+&lt;p&gt;剪视频去了&lt;/p&gt;
+&lt;h3 id=&#34;数学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h3&gt;
+&lt;p&gt;看了圆锥曲线的总结，和导数压轴的开头&lt;br /&gt;
+总感觉数学不怎么难但就是做不出题&lt;br /&gt;
+或许再做做就顿悟了&lt;/p&gt;
+&lt;h3 id=&#34;化学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#化学&#34;&gt;#&lt;/a&gt; 化学&lt;/h3&gt;
+&lt;p&gt;学了苯及其同系物和卤代烃&lt;br /&gt;
+感觉没什么好说的&lt;br /&gt;
+至少在我看来化学还是有一点偏文科的&lt;/p&gt;
+&lt;h3 id=&#34;大学数学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#大学数学&#34;&gt;#&lt;/a&gt; 大学数学&lt;/h3&gt;
+&lt;p&gt;高数听了六道题&lt;br /&gt;
+数列和的极限除了夹逼还可以用定积分的定义  &lt;s&gt;这 tmd 是人能想出来的&lt;/s&gt;&lt;br /&gt;
+虽然不知道为什么，都大学了明明可以用洛必达啊，泰勒啊，还是跟小镇做题家一样，限制自己可用的定理去做题&lt;br /&gt;
+ hmm 反正我不太喜欢这样&lt;/p&gt;
+&lt;h3 id=&#34;直播&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#直播&#34;&gt;#&lt;/a&gt; 直播&lt;/h3&gt;
+&lt;p&gt;画了一点画&lt;br /&gt;
+感觉还是太寄了&lt;br /&gt;
+还是先看 k 大的课吧&lt;br /&gt;
+ [ ] 给咸鱼重置一下作品&lt;/p&gt;
+&lt;h3 id=&#34;计算机科学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机科学&#34;&gt;#&lt;/a&gt; 计算机科学&lt;/h3&gt;
+&lt;p&gt;计算机组成原理&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+&lt;p&gt;好像也没啥了&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://starryxyj.github.io/2024/03/13/diary/20240313/</guid>
+            <title>2024年3月13日</title>
+            <link>https://starryxyj.github.io/2024/03/13/diary/20240313/</link>
+            <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+            <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+            <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+            <pubDate>Wed, 13 Mar 2024 21:31:26 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;2024-03-13&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-13&#34;&gt;#&lt;/a&gt; 2024-03-13&lt;/h1&gt;
+&lt;p&gt;做视频去了，就没有写&lt;br /&gt;
+嘿嘿，就鸽一天&lt;br /&gt;
+不对，第一天就鸽了&lt;br /&gt;
+啊不管了不管了&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://starryxyj.github.io/2024/03/12/diary/20240312/</guid>
             <title>休学日记的开始</title>
             <link>https://starryxyj.github.io/2024/03/12/diary/20240312/</link>
             <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
             <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+            <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
             <pubDate>Tue, 12 Mar 2024 22:47:18 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;2024-03-12&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-12&#34;&gt;#&lt;/a&gt; 2024-03-12&lt;/h2&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;2024-03-12&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-12&#34;&gt;#&lt;/a&gt; 2024-03-12&lt;/h1&gt;
 &lt;p&gt;在我的努力下我也是成功地休学了&lt;/p&gt;
 &lt;p&gt;今天是休学的第二天，从明天开始我会每天在这里记下一天中做过的事情，无论是学习了什么东西还是游戏段位的提升 (bushi)，当然我也只会选择性地记下一些东西，可能是为了方便以后写传记 233&lt;br /&gt;
  不管怎么，休学这个决定也是做下了&lt;br /&gt;
