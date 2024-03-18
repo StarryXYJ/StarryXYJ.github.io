@@ -7,11 +7,36 @@
     "home_page_url": "https://starryxyj.github.io",
     "items": [
         {
+            "id": "https://starryxyj.github.io/2024/03/18/diary/20240318/",
+            "url": "https://starryxyj.github.io/2024/03/18/diary/20240318/",
+            "title": "2024年3月18日",
+            "date_published": "2024-03-18T09:27:41.000Z",
+            "content_html": "<h1 id=\"2024-03-18\"><a class=\"anchor\" href=\"#2024-03-18\">#</a> 2024-03-18</h1>\n<h1 id=\"唠嗑\"><a class=\"anchor\" href=\"#唠嗑\">#</a> 唠嗑</h1>\n<p>直播写作业<br />\n真的什么都想得出来 hh</p>\n<h1 id=\"学习内容总结\"><a class=\"anchor\" href=\"#学习内容总结\">#</a> 学习内容总结</h1>\n<p>各个科目好像也就那样<br />\n物理回顾了一下天体运动，好像也没啥<br />\n语文就继续听了听<br />\n就先这样吧</p>\n<h1 id=\"其他\"><a class=\"anchor\" href=\"#其他\">#</a> 其他</h1>\n<p>感觉写的字数越来越少了<br />\n可能确实没啥好写的吧</p>\n",
+            "tags": [
+                "日记",
+                "日记",
+                "休学"
+            ]
+        },
+        {
+            "id": "https://starryxyj.github.io/2024/03/18/note/UE/Material/%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/",
+            "url": "https://starryxyj.github.io/2024/03/18/note/UE/Material/%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/",
+            "title": "虚幻引擎次材质渐变效果实现，原理与思路",
+            "date_published": "2024-03-18T03:39:00.000Z",
+            "content_html": "<h1 id=\"uv\"><a class=\"anchor\" href=\"#uv\">#</a> UV</h1>\n<p>UV 坐标为从左上到右下，映射到从（0，0）到（1，1）<br />\nTexCoord 默认 UV 为水平和竖直两个方向 从 0 到 1<br />\n 使用 Mask 节点可以分离这两个分量，获取水平和竖直方向上分别从黑到白（从 0 到 1）的贴图</p>\n<h1 id=\"实现思想\"><a class=\"anchor\" href=\"#实现思想\">#</a> 实现思想</h1>\n<p>对于方形渐变我们通过取特值方便理解和设计<br />\n对于贴图黑的地方为 0，白的地方为 1，灰的地方为 0.5<br />\n 在对目标进行水平和竖直方向的分解<br />\n就很容易得出两个向量<br />\n我们所需要做的就是找到一个变换，使得一个向量变为另一个向量<br />\n当然我们有很多黑科技，而非只有加减乘除去找到这么一个变换</p>\n<p>常用节点如下</p>\n<h3 id=\"constantbiasscale\"><a class=\"anchor\" href=\"#constantbiasscale\">#</a> ConstantBiasScale</h3>\n<p>将值先加减偏移再乘除<br />\n属于是少了一点步骤<br />\n可以实现 [-1,1] 到 [0,1] 这种变换</p>\n<p>~ 未完待续～</p>\n",
+            "tags": [
+                "笔记，虚幻引擎，虚幻引擎材质",
+                "笔记",
+                "虚幻引擎",
+                "技术美术"
+            ]
+        },
+        {
             "id": "https://starryxyj.github.io/2024/03/15/diary/20240315/",
             "url": "https://starryxyj.github.io/2024/03/15/diary/20240315/",
             "title": "2024年3月15日",
             "date_published": "2024-03-15T12:11:32.000Z",
-            "content_html": "<h1 id=\"2024-03-15\"><a class=\"anchor\" href=\"#2024-03-15\">#</a> 2024-03-15</h1>\n<h1 id=\"唠嗑\"><a class=\"anchor\" href=\"#唠嗑\">#</a> 唠嗑</h1>\n<p>看直播的人好像比看我视频的人更少<br />\n或许还是不太适合做这种吧<br />\n做视频都一千多天了，收益也才三百出头<br />\n我究竟在干什么啊</p>\n<p>如果有钱的话，结果就不会这样了吧<br />\n其实一直都挺想做一个普普通通的人，有一段快乐的童年，一段平凡但幸福的人生<br />\n一旦有钱了就离开现在所处的地方吧<br />\n或许吧<br />\n但感觉自己一直以来也不是一个很有决心的人<br />\n十多年的人生没有多少事情是如愿的<br />\n经常想结束自己的生命，但徘徊在天台边上时，又感到不甘<br />\n我的消失真的会有人在意吗<br />\n就算是我的家长，也只是天天表面上迎合我呢<br />\n常在不经意间偷听到一些让人心寒的话</p>\n<p>我的一生为何如此不堪<br />\n我所做的一切真的没有意义吗</p>\n<p>好难受</p>\n<h1 id=\"学习内容总结\"><a class=\"anchor\" href=\"#学习内容总结\">#</a> 学习内容总结</h1>\n<p>毫无收获</p>\n<h1 id=\"其他\"><a class=\"anchor\" href=\"#其他\">#</a> 其他</h1>\n<p>想找个项目做做，自己这个游戏还在策划中（要写文档 qaq）</p>\n",
+            "content_html": "<h1 id=\"2024-03-15\"><a class=\"anchor\" href=\"#2024-03-15\">#</a> 2024-03-15</h1>\n<h1 id=\"唠嗑\"><a class=\"anchor\" href=\"#唠嗑\">#</a> 唠嗑</h1>\n<p>看直播的人好像比看我视频的人更少<br />\n或许还是不太适合做这种吧<br />\n做视频都一千多天了，收益也才三百出头</p>\n<h1 id=\"学习内容总结\"><a class=\"anchor\" href=\"#学习内容总结\">#</a> 学习内容总结</h1>\n<p>无</p>\n<h1 id=\"其他\"><a class=\"anchor\" href=\"#其他\">#</a> 其他</h1>\n<p>想找个项目做做，自己这个游戏还在策划中（要写文档 qaq）</p>\n",
             "tags": [
                 "日记",
                 "日记",
