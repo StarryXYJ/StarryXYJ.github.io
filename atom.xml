@@ -8,7 +8,7 @@
     <author>
       <name>咲夜Starry</name>
     </author>
-    <updated>2024-03-18T09:27:41.000Z</updated>
+    <updated>2024-03-26T12:49:00.000Z</updated>
     <category term="日常" />
     <category term="编程" />
     <category term="杂谈" />
@@ -16,6 +16,176 @@
     <category term="咲夜" />
     <category term="Starry" />
     <category term="C#" />
+    <entry>
+        <id>https://starryxyj.github.io/2024/03/26/note/computer-science/computer-organization/%E5%8E%9F%E5%8F%8D%E8%A1%A5%E7%A0%81/</id>
+        <title>原反补码</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/03/26/note/computer-science/computer-organization/%E5%8E%9F%E5%8F%8D%E8%A1%A5%E7%A0%81/"/>
+        <content type="html">&lt;h1 id=&#34;有符号整数的原反补码和无符号整数的-无码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#有符号整数的原反补码和无符号整数的-无码&#34;&gt;#&lt;/a&gt; 有符号整数的原反补码和无符号整数的 &lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;无码&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;无符号整数就是普通的二进制数&lt;br /&gt;
+有符号整数就不一样了，分为原码、反码、补码&lt;br /&gt;
+原码为符号位 + 普通二进制的数值位&lt;/p&gt;
+&lt;h3 id=&#34;对于负数即符号位为1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对于负数即符号位为1&#34;&gt;#&lt;/a&gt; 对于负数，即符号位为 1&lt;/h3&gt;
+&lt;p&gt;反码为原码数值位取反&lt;br /&gt;
+补码为反码加一&lt;br /&gt;
+&lt;s&gt;反码就纯纯工具人跳板咯&lt;/s&gt;&lt;br /&gt;
+甚至可以不需要这个工具人！&lt;br /&gt;
+手算可以将从右往左第一个一左侧所有数值为取反&lt;br /&gt;
+这个算一下就好理解了&lt;br /&gt;
+不像补码的原理，涉及数论的群论&lt;br /&gt;
+之前学离散数学还没学到群论，加上自己以后应该不会学密码学，就不踩这个坑了&lt;/p&gt;
+&lt;h3 id=&#34;对于正数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对于正数&#34;&gt;#&lt;/a&gt; 对于正数&lt;/h3&gt;
+&lt;p&gt;啥都不变&lt;/p&gt;
+&lt;h3 id=&#34;运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算&#34;&gt;#&lt;/a&gt; 运算&lt;/h3&gt;
+&lt;p&gt;总之，这样一切就统一了&lt;br /&gt;
+加法直接加，溢出的位直接舍&lt;br /&gt;
+减法就减去这个数的相反数&lt;br /&gt;
+相反数也好处理，方法也一样&lt;br /&gt;
+全部位取反后加一&lt;/p&gt;
+&lt;h1 id=&#34;特性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特性&#34;&gt;#&lt;/a&gt; 特性&lt;/h1&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;n+1 bit&lt;/td&gt;
+&lt;td&gt;合法表示范围&lt;/td&gt;
+&lt;td&gt;最大数&lt;/td&gt;
+&lt;td&gt;最小数&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;原码&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;[&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;-(2^n-1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2^n-1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.747722em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]&lt;/td&gt;
+&lt;td&gt;0111...111&lt;/td&gt;
+&lt;td&gt;1111...111&lt;/td&gt;
+&lt;td&gt;0000...000 或 1000...000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;反码&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;[&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;-(2^n-1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2^n-1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.747722em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]&lt;/td&gt;
+&lt;td&gt;0111...111&lt;/td&gt;
+&lt;td&gt;1000...000&lt;/td&gt;
+&lt;td&gt;0000...000 或 1000...000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;补码&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;[&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;-2^n&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.747722em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2^n-1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.747722em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]&lt;/td&gt;
+&lt;td&gt;0111...111&lt;/td&gt;
+&lt;td&gt;1000...000&lt;/td&gt;
+&lt;td&gt;0000...000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;无符号整数&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;[0,&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2*2^n-1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;∗&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.747722em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.664392em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]&lt;/td&gt;
+&lt;td&gt;1111...111&lt;/td&gt;
+&lt;td&gt;0000...000&lt;/td&gt;
+&lt;td&gt;0000...000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;（未完待续...&lt;/p&gt;
+</content>
+        <category term="笔记，计算机组成原理，计算机科学" scheme="https://starryxyj.github.io/categories/%E7%AC%94%E8%AE%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
+        <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
+        <category term="计算机组成原理" scheme="https://starryxyj.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
+        <category term="计算机科学" scheme="https://starryxyj.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
+        <updated>2024-03-26T12:49:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2024/03/26/diary/20240326/</id>
+        <title>2024年3月26日</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/03/26/diary/20240326/"/>
+        <content type="html">&lt;h1 id=&#34;2024-03-26&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-26&#34;&gt;#&lt;/a&gt; 2024-03-26&lt;/h1&gt;
+&lt;h1 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h1&gt;
+&lt;p&gt;至少在我看来国内的教育是有极大的缺陷的&lt;br /&gt;
+他培养的方向完全就是小镇做题家的感觉&lt;br /&gt;
+完全是为了做题而学习，而非去做一些更有意义的活动啊&lt;/p&gt;
+&lt;p&gt;好像不是第一次吐槽这个了&lt;br /&gt;
+以前好像还发了一篇推文吐槽&lt;/p&gt;
+&lt;p&gt;虽然现在休学了&lt;br /&gt;
+但是迫于各方压力，还得学习高考内容，本来只是留个后路的&lt;br /&gt;
+不过或许可以现在先把高考的内容学得差不多，之后直接放了，或者保持最低限度的学习&lt;br /&gt;
+高考前的一段时间再重新复习一下&lt;/p&gt;
+&lt;h1 id=&#34;学习内容总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容总结&#34;&gt;#&lt;/a&gt; 学习内容总结&lt;/h1&gt;
+&lt;h3 id=&#34;数学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h3&gt;
+&lt;p&gt;导数的课听完了&lt;br /&gt;
+做一做题&lt;br /&gt;
+有一点思路，但不多&lt;br /&gt;
+明天开始做一做数列和圆锥曲线的题好了&lt;br /&gt;
+中转一下，之后复习完概统再来做做导数&lt;/p&gt;
+&lt;h3 id=&#34;语文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语文&#34;&gt;#&lt;/a&gt; 语文&lt;/h3&gt;
+&lt;p&gt;也是做题&lt;br /&gt;
+好难，逆天题目一点不会&lt;br /&gt;
+ damn&lt;/p&gt;
+&lt;h3 id=&#34;化学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#化学&#34;&gt;#&lt;/a&gt; 化学&lt;/h3&gt;
+&lt;p&gt;慢慢学习 ing&lt;br /&gt;
+ 化学是真的半文科&lt;br /&gt;
+至少高中化学是&lt;br /&gt;
+都是记背的内容&lt;br /&gt;
+难崩&lt;/p&gt;
+&lt;h3 id=&#34;通用技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通用技术&#34;&gt;#&lt;/a&gt; 通用技术&lt;/h3&gt;
+&lt;p&gt;逻辑电路和触发器&lt;br /&gt;
+以前玩 mc 红石的时候看了那本编码的奥秘&lt;br /&gt;
+感觉差不多会了&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+</content>
+        <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+        <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+        <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+        <updated>2024-03-26T12:29:01.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2024/03/25/diary/20240325/</id>
+        <title>2024年3月25日</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/03/25/diary/20240325/"/>
+        <content type="html">&lt;h1 id=&#34;2024-03-25&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-25&#34;&gt;#&lt;/a&gt; 2024-03-25&lt;/h1&gt;
+&lt;h1 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h1&gt;
+&lt;p&gt;前几天回学校考试 + 春游了&lt;br /&gt;
+昨天接了一单剪辑，38 块&lt;/p&gt;
+&lt;h1 id=&#34;学习内容总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容总结&#34;&gt;#&lt;/a&gt; 学习内容总结&lt;/h1&gt;
+&lt;p&gt;没怎么学&lt;br /&gt;
+明天再学&lt;br /&gt;
+欸嘿～&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+</content>
+        <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+        <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+        <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+        <updated>2024-03-25T10:23:33.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2024/03/20/20040320/</id>
+        <title>20040320</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/03/20/20040320/"/>
+        <content type="html"></content>
+        <updated>2024-03-20T01:04:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2024/03/19/diary/20240319/</id>
+        <title>2024年3月18日</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/03/19/diary/20240319/"/>
+        <content type="html">&lt;h1 id=&#34;2024-03-19&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-19&#34;&gt;#&lt;/a&gt; 2024-03-19&lt;/h1&gt;
+&lt;h1 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h1&gt;
+&lt;h1 id=&#34;学习内容总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容总结&#34;&gt;#&lt;/a&gt; 学习内容总结&lt;/h1&gt;
+&lt;h3 id=&#34;数学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h3&gt;
+&lt;p&gt;大概学了极值点零点的相关问题&lt;br /&gt;
+也还是必要性先行的思路&lt;br /&gt;
+还有就是端点效应&lt;br /&gt;
+就是边缘取到要证的边界值时，要求边缘的导数值要使之非边缘处成立&lt;br /&gt;
+就比如 f (x) 定义域为 (0,2), 要证他小于 1&lt;br /&gt;
+ 而 f (0)=1，只需通过 f`(1)&amp;lt;=0，得到参数的范围，然后证明该范围是正确的&lt;br /&gt;
+如果不是边界，就通过导数算出参数的唯一值，并证明&lt;/p&gt;
+&lt;h3 id=&#34;化学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#化学&#34;&gt;#&lt;/a&gt; 化学&lt;/h3&gt;
+&lt;p&gt;学习了酚相关的内容&lt;br /&gt;
+还有一点醛的开头&lt;br /&gt;
+化学的都记在笔记本上了，毕竟有点多&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+&lt;p&gt;骑自行车去兜了一圈&lt;br /&gt;
+好久没骑了&lt;/p&gt;
+</content>
+        <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+        <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+        <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+        <updated>2024-03-19T04:53:42.000Z</updated>
+    </entry>
     <entry>
         <id>https://starryxyj.github.io/2024/03/18/diary/20240318/</id>
         <title>2024年3月18日</title>
@@ -40,7 +210,7 @@
     </entry>
     <entry>
         <id>https://starryxyj.github.io/2024/03/18/note/UE/Material/%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
-        <title>虚幻引擎次材质渐变效果实现，原理与思路</title>
+        <title>虚幻引擎材质渐变效果实现，原理与思路</title>
         <link rel="alternate" href="https://starryxyj.github.io/2024/03/18/note/UE/Material/%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
         <content type="html">&lt;h1 id=&#34;uv&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uv&#34;&gt;#&lt;/a&gt; UV&lt;/h1&gt;
 &lt;p&gt;UV 坐标为从左上到右下，映射到从（0，0）到（1，1）&lt;br /&gt;
@@ -58,7 +228,14 @@ TexCoord 默认 UV 为水平和竖直两个方向 从 0 到 1&lt;br /&gt;
 &lt;p&gt;将值先加减偏移再乘除&lt;br /&gt;
 属于是少了一点步骤&lt;br /&gt;
 可以实现 [-1,1] 到 [0,1] 这种变换&lt;/p&gt;
-&lt;p&gt;~ 未完待续～&lt;/p&gt;
+&lt;h3 id=&#34;clamp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clamp&#34;&gt;#&lt;/a&gt; Clamp&lt;/h3&gt;
+&lt;p&gt;将一个变量的值钳制再 min 和 max 中&lt;br /&gt;
+大于 max 的值输出 max&lt;br /&gt;
+ 小于同理&lt;/p&gt;
+&lt;h3 id=&#34;saturate&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#saturate&#34;&gt;#&lt;/a&gt; Saturate&lt;/h3&gt;
+&lt;p&gt;同 Clamp&lt;br /&gt;
+ 但 min 为 0，max 为 1&lt;br /&gt;
+ 效率更高&lt;/p&gt;
 </content>
         <category term="笔记，虚幻引擎，虚幻引擎材质" scheme="https://starryxyj.github.io/categories/%E7%AC%94%E8%AE%B0%EF%BC%8C%E8%99%9A%E5%B9%BB%E5%BC%95%E6%93%8E%EF%BC%8C%E8%99%9A%E5%B9%BB%E5%BC%95%E6%93%8E%E6%9D%90%E8%B4%A8/" />
         <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
@@ -1538,140 +1715,5 @@ alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height
         <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
         <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
         <updated>2013-12-24T16:16:18.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://starryxyj.github.io/2013/12/25/test/tag-plugins/</id>
-        <title>Tag Plugins</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2013/12/25/test/tag-plugins/"/>
-        <content type="html">&lt;p&gt;This post is used for testing tag plugins. See &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3MvdGFnLXBsdWdpbnMuaHRtbA==&#34;&gt;docs&lt;/span&gt; for more info.&lt;/p&gt;
-&lt;h2 id=&#34;block-quote&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#block-quote&#34;&gt;#&lt;/a&gt; Block Quote&lt;/h2&gt;
-&lt;h3 id=&#34;normal-blockquote&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#normal-blockquote&#34;&gt;#&lt;/a&gt; Normal blockquote&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;quote-from-a-book&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quote-from-a-book&#34;&gt;#&lt;/a&gt; Quote from a book&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;David Levithan&lt;/strong&gt;&lt;cite&gt;Wide Awake&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
-&lt;h3 id=&#34;quote-from-twitter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quote-from-twitter&#34;&gt;#&lt;/a&gt; Quote from Twitter&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote&gt;&lt;p&gt;NEW: DevDocs now comes with syntax highlighting. &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmRvY3MuaW8=&#34;&gt;http://devdocs.io&lt;/span&gt;&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;@DevDocs&lt;/strong&gt;&lt;cite&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90d2l0dGVyLmNvbS9kZXZkb2NzL3N0YXR1cy8zNTYwOTUxOTIwODU5NjI3NTI=&#34;&gt;twitter.com/devdocs/status/356095192085962752&lt;/span&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
-&lt;h3 id=&#34;quote-from-an-article-on-the-web&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quote-from-an-article-on-the-web&#34;&gt;#&lt;/a&gt; Quote from an article on the web&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote&gt;&lt;p&gt;Every interaction is both precious and an opportunity to delight.&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Seth Godin&lt;/strong&gt;&lt;cite&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3NldGhnb2Rpbi50eXBlcGFkLmNvbS9zZXRoc19ibG9nLzIwMDkvMDcvd2VsY29tZS10by1pc2xhbmQtbWFya2V0aW5nLmh0bWw=&#34;&gt;Welcome to Island Marketing&lt;/span&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
-&lt;h2 id=&#34;code-block&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#code-block&#34;&gt;#&lt;/a&gt; Code Block&lt;/h2&gt;
-&lt;h3 id=&#34;normal-code-block&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#normal-code-block&#34;&gt;#&lt;/a&gt; Normal code block&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;alert(&#39;Hello World!&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;with-caption&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#with-caption&#34;&gt;#&lt;/a&gt; With caption&lt;/h3&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;array.map(callback[, thisArg])&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;h3 id=&#34;with-caption-and-url&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#with-caption-and-url&#34;&gt;#&lt;/a&gt; With caption and URL&lt;/h3&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;.compact([0, 1, false, 2, ‘’, 3]);
-&amp;#x3D;&amp;gt; [1, 2, 3]&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;h3 id=&#34;with-marked-lines&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#with-marked-lines&#34;&gt;#&lt;/a&gt; With marked lines&lt;/h3&gt;
-&lt;p&gt;Line 1,7-8,10 should be marked with different color.&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;const http &amp;#x3D; require(&amp;#39;http&amp;#39;);
-
-const hostname &amp;#x3D; &amp;#39;127.0.0.1&amp;#39;;
-const port &amp;#x3D; 1337;
-
-http.createServer((req, res) &amp;#x3D;&amp;gt; {
-  res.writeHead(200, { &amp;#39;Content-Type&amp;#39;: &amp;#39;text&amp;#x2F;plain&amp;#39; });
-  res.end(&amp;#39;Hello World\n&amp;#39;);
-}).listen(port, hostname, () &amp;#x3D;&amp;gt; {
-  console.log(&amp;#96;Server running at http:&amp;#x2F;&amp;#x2F;${hostname}:${port}&amp;#x2F;&amp;#96;);
-});&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;Note: Theme&#39;s style should support  &lt;code&gt;.highlight.line.marked&lt;/code&gt;  (recommend to use the selection or current line color).&lt;/p&gt;
-&lt;h3 id=&#34;gist&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gist&#34;&gt;#&lt;/a&gt; Gist&lt;/h3&gt;
-&lt;p&gt;&lt;script src=&#34;//gist.github.com/996818.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;h3 id=&#34;jsfiddle&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jsfiddle&#34;&gt;#&lt;/a&gt; jsFiddle&lt;/h3&gt;
-&lt;p&gt;&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;300&#34; src=&#34;https://jsfiddle.net/ccWP7/embedded/js,resources,html,css,result/light&#34; frameborder=&#34;0&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2 id=&#34;pullquote&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pullquote&#34;&gt;#&lt;/a&gt; Pullquote&lt;/h2&gt;
-&lt;h3 id=&#34;left&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#left&#34;&gt;#&lt;/a&gt; Left&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote class=&#34;pullquote left&#34;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus molestie arcu, et fringilla mauris placerat ac. Nullam luctus bibendum risus. Ut cursus sed ipsum feugiat egestas. Suspendisse elementum, velit eu consequat consequat, augue lorem dapibus libero, eget pulvinar dolor est sit amet nulla. Suspendisse a porta tortor, et posuere mi. Pellentesque ultricies, mi quis volutpat malesuada, erat felis vulputate nisl, ac congue ante tortor ut ante. Proin aliquam sem vel mauris tincidunt, eget scelerisque tortor euismod. Nulla tincidunt enim nec commodo dictum. Mauris id sapien et orci gravida luctus id ut dui. In vel vulputate odio. Duis vel turpis molestie, scelerisque enim eu, lobortis eros. Cras at ipsum gravida, sagittis ante vel, viverra tellus. Nunc mauris turpis, elementum ullamcorper nisl pretium, ultrices cursus justo. Mauris porttitor commodo eros, ac ornare orci interdum in. Cras fermentum cursus leo sed mattis. In dignissim lorem sem, sit amet elementum mauris venenatis ac.&lt;/p&gt;
-&lt;h3 id=&#34;right&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#right&#34;&gt;#&lt;/a&gt; Right&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote class=&#34;pullquote right&#34;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula justo, lobortis sit amet semper vel, dignissim sit amet libero. Praesent ac tempus ligula. Maecenas at gravida odio. Etiam tristique volutpat lacus eu faucibus. Donec non tempus arcu. Phasellus adipiscing, mauris nec mollis egestas, ipsum nunc auctor velit, et rhoncus lorem ipsum at ante. Praesent et sem in velit volutpat auctor. Duis vel mauris nulla. Maecenas mattis interdum ante, quis sagittis nibh cursus et. Nulla facilisi. Morbi convallis gravida tortor, ut fermentum enim gravida et. Nunc vel dictum nisl, non ultrices libero. Proin vestibulum felis eget orci consectetur lobortis. Vestibulum augue nulla, iaculis vitae augue vehicula, dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac magna. Etiam vel pharetra elit.&lt;/p&gt;
-</content>
-        <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
-        <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
-        <updated>2013-12-24T16:14:39.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://starryxyj.github.io/2013/12/24/test/elements/</id>
-        <title>Elements</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2013/12/24/test/elements/"/>
-        <content type="html">&lt;p&gt;The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don&#39;t forget to redefine the style by yourself.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1 id=&#34;heading-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#heading-1&#34;&gt;#&lt;/a&gt; Heading 1&lt;/h1&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#heading-2&#34;&gt;#&lt;/a&gt; Heading 2&lt;/h2&gt;
-&lt;h3 id=&#34;heading-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#heading-3&#34;&gt;#&lt;/a&gt; Heading 3&lt;/h3&gt;
-&lt;h4 id=&#34;heading-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#heading-4&#34;&gt;#&lt;/a&gt; Heading 4&lt;/h4&gt;
-&lt;h5 id=&#34;heading-5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#heading-5&#34;&gt;#&lt;/a&gt; Heading 5&lt;/h5&gt;
-&lt;h6 id=&#34;heading-6&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#heading-6&#34;&gt;#&lt;/a&gt; Heading 6&lt;/h6&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;paragraph&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#paragraph&#34;&gt;#&lt;/a&gt; Paragraph&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href=&#34;&#34;&gt;test link&lt;/a&gt; consectetur adipiscing elit. &lt;strong&gt;Strong text&lt;/strong&gt; pellentesque ligula commodo viverra vehicula. &lt;em&gt;Italic text&lt;/em&gt; at ullamcorper enim. Morbi a euismod nibh. &amp;lt;u&amp;gt;Underline text&amp;lt;/u&amp;gt; non elit nisl. &lt;s&gt;Deleted text&lt;/s&gt; tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.&lt;/p&gt;
-&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus.  &lt;code&gt;Sed erat diam&lt;/code&gt; , blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.&lt;/p&gt;
-&lt;h2 id=&#34;list-types&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#list-types&#34;&gt;#&lt;/a&gt; List Types&lt;/h2&gt;
-&lt;h3 id=&#34;definition-list-dl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#definition-list-dl&#34;&gt;#&lt;/a&gt; Definition List (dl)&lt;/h3&gt;
-&lt;p&gt;&amp;lt;dl&amp;gt;&amp;lt;dt&amp;gt;Definition List Title&amp;lt;/dt&amp;gt;&amp;lt;dd&amp;gt;This is a definition list division.&amp;lt;/dd&amp;gt;&amp;lt;/dl&amp;gt;&lt;/p&gt;
-&lt;h3 id=&#34;ordered-list-ol&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ordered-list-ol&#34;&gt;#&lt;/a&gt; Ordered List (ol)&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;unordered-list-ul&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unordered-list-ul&#34;&gt;#&lt;/a&gt; Unordered List (ul)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;checkbox-list-ul&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#checkbox-list-ul&#34;&gt;#&lt;/a&gt; Checkbox List (ul)&lt;/h3&gt;
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; List Item 1 unchecked&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; List Item 2 checked&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; List Item 3 checked&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;table&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#table&#34;&gt;#&lt;/a&gt; Table&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Table Header 1&lt;/th&gt;
-&lt;th&gt;Table Header 2&lt;/th&gt;
-&lt;th&gt;Table Header 3&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;misc-stuff-abbr-acronym-sub-sup-kbd-etc&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#misc-stuff-abbr-acronym-sub-sup-kbd-etc&#34;&gt;#&lt;/a&gt; Misc Stuff - abbr, acronym, sub, sup, kbd, etc.&lt;/h2&gt;
-&lt;p&gt;Lorem &amp;lt;sup&amp;gt;superscript&amp;lt;/sup&amp;gt; dolor &amp;lt;sub&amp;gt;subscript&amp;lt;/sub&amp;gt; amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. &amp;lt;cite&amp;gt;cite&amp;lt;/cite&amp;gt;. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. &amp;lt;acronym title=&amp;quot;National Basketball Association&amp;quot;&amp;gt;NBA&amp;lt;/acronym&amp;gt; Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  &amp;lt;abbr title=&amp;quot;Avenue&amp;quot;&amp;gt;AVE&amp;lt;/abbr&amp;gt;. Use &amp;lt;kbd&amp;gt;Crtl&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;C&amp;lt;/kbd&amp;gt; to stop.&lt;/p&gt;
-</content>
-        <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
-        <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
-        <updated>2013-12-24T15:29:08.000Z</updated>
     </entry>
 </feed>
