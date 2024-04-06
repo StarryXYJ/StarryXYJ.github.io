@@ -8,7 +8,7 @@
     <author>
       <name>咲夜Starry</name>
     </author>
-    <updated>2024-03-26T12:49:00.000Z</updated>
+    <updated>2024-04-06T11:15:13.000Z</updated>
     <category term="日常" />
     <category term="编程" />
     <category term="杂谈" />
@@ -16,6 +16,51 @@
     <category term="咲夜" />
     <category term="Starry" />
     <category term="C#" />
+    <entry>
+        <id>https://starryxyj.github.io/2024/04/06/diary/20240406/</id>
+        <title>2024年4月6日</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/04/06/diary/20240406/"/>
+        <content type="html">&lt;h1 id=&#34;2024-04-06&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-04-06&#34;&gt;#&lt;/a&gt; 2024-04-06&lt;/h1&gt;
+&lt;h1 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h1&gt;
+&lt;p&gt;好久没写了，有时候也在想要不要继续写&lt;br /&gt;
+或许还是隔天写好了&lt;br /&gt;
+或者想写的时候写一下&lt;br /&gt;
+毕竟学到的东西还是记在笔记里&lt;/p&gt;
+&lt;h1 id=&#34;学习内容总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容总结&#34;&gt;#&lt;/a&gt; 学习内容总结&lt;/h1&gt;
+&lt;p&gt;可能算是得寸进尺吧&lt;br /&gt;
+高考内容真一点也不想学了&lt;br /&gt;
+这几天线代通关了&lt;br /&gt;
+和高数一样做一点题目应该差不多了&lt;br /&gt;
+概统和复变感觉可以降低一点优先度&lt;br /&gt;
+先学学计算机科学相关的&lt;br /&gt;
+感觉相比之下更用得上&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+&lt;p&gt;遇到了为数不多的 galgame otaku + 码&lt;br /&gt;
+应邀加入 key 社相关的同好群&lt;br /&gt;
+搜了搜 key 社，才知道以前看动漫的星之梦和天使的心跳是改自 key 社的作品，还以为 key 社的作品只接触过 cl 和 loopers&lt;/p&gt;
+</content>
+        <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+        <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+        <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+        <updated>2024-04-06T11:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2024/03/28/diary/20240328/</id>
+        <title>2024年3月28日</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/03/28/diary/20240328/"/>
+        <content type="html">&lt;h1 id=&#34;2024-03-28&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024-03-28&#34;&gt;#&lt;/a&gt; 2024-03-28&lt;/h1&gt;
+&lt;h1 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h1&gt;
+&lt;p&gt;昨天又没写&lt;br /&gt;
+不管惹&lt;/p&gt;
+&lt;h1 id=&#34;学习内容总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容总结&#34;&gt;#&lt;/a&gt; 学习内容总结&lt;/h1&gt;
+&lt;p&gt;做题 ing&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+</content>
+        <category term="日记" scheme="https://starryxyj.github.io/categories/diary/" />
+        <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
+        <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
+        <updated>2024-03-28T13:13:55.000Z</updated>
+    </entry>
     <entry>
         <id>https://starryxyj.github.io/2024/03/26/note/computer-science/computer-organization/%E5%8E%9F%E5%8F%8D%E8%A1%A5%E7%A0%81/</id>
         <title>原反补码</title>
@@ -81,7 +126,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;（未完待续...&lt;/p&gt;
+&lt;h1 id=&#34;移码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#移码&#34;&gt;#&lt;/a&gt; 移码&lt;/h1&gt;
+&lt;p&gt;补码的符号位取反&lt;br /&gt;
+这样变为无符号整数一样的了&lt;br /&gt;
+没具体讲，以后课讲了再补一下&lt;/p&gt;
 </content>
         <category term="笔记，计算机组成原理，计算机科学" scheme="https://starryxyj.github.io/categories/%E7%AC%94%E8%AE%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
@@ -150,13 +198,6 @@
         <category term="日记" scheme="https://starryxyj.github.io/tags/%E6%97%A5%E8%AE%B0/" />
         <category term="休学" scheme="https://starryxyj.github.io/tags/%E4%BC%91%E5%AD%A6/" />
         <updated>2024-03-25T10:23:33.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://starryxyj.github.io/2024/03/20/20040320/</id>
-        <title>20040320</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2024/03/20/20040320/"/>
-        <content type="html"></content>
-        <updated>2024-03-20T01:04:00.000Z</updated>
     </entry>
     <entry>
         <id>https://starryxyj.github.io/2024/03/19/diary/20240319/</id>
@@ -1697,23 +1738,5 @@ alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height
         <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
         <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
         <updated>2013-12-26T14:46:49.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://starryxyj.github.io/2013/12/25/test/gallery-post/</id>
-        <title>Gallery Post</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2013/12/25/test/gallery-post/"/>
-        <content type="html">&lt;p&gt;This post contains 4 photos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Widescreen wallpaper&lt;/li&gt;
-&lt;li&gt;Portrait photo&lt;/li&gt;
-&lt;li&gt;Dual widescreen wallpaper&lt;/li&gt;
-&lt;li&gt;Small photo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All photos should be displayed properly.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;From &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3dhbGxiYXNlLmNj&#34;&gt;Wallbase.cc&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
-</content>
-        <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
-        <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
-        <updated>2013-12-24T16:16:18.000Z</updated>
     </entry>
 </feed>
