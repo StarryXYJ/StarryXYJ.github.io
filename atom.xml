@@ -17,35 +17,6 @@
     <category term="Starry" />
     <category term="C#" />
     <entry>
-        <id>https://starryxyj.github.io/2024/04/19/note/computer-science/computer-graphics/1Games101VisualStudio%E4%BD%9C%E4%B8%9A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
-        <title>Games101VisualStudio作业环境搭建</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2024/04/19/note/computer-science/computer-graphics/1Games101VisualStudio%E4%BD%9C%E4%B8%9A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-        <content type="html">&lt;p&gt;虚拟机的方式虽然环境搭建好了&lt;br /&gt;
-但是网盘要下载很久，虚拟机也相对比较卡顿&lt;br /&gt;
-需要更多的硬盘空间&lt;/p&gt;
-&lt;h2 id=&#34;下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载&#34;&gt;#&lt;/a&gt; 下载&lt;/h2&gt;
-&lt;p&gt;下载 Visual Studio Installer&lt;br /&gt;
- 选择 C++ 桌面开发&lt;br /&gt;
-下载完打开 Visual Studio&lt;br /&gt;
- 新建项目，把作业压缩包的文件直接拖到项目里&lt;/p&gt;
-&lt;h2 id=&#34;配置包环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置包环境&#34;&gt;#&lt;/a&gt; 配置包环境&lt;/h2&gt;
-&lt;p&gt;Eigen 可以直接在 nuget 下载&lt;br /&gt;
-下载完要把源代码里所有 eigen3 删去&lt;br /&gt;
-至于 opencv，我直接 nuget 下载会报错&lt;br /&gt;
-所以就直接&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL29wZW5jdi9vcGVuY3YvcmVsZWFzZXMvZG93bmxvYWQvNC45LjAvb3BlbmN2LTQuOS4wLXdpbmRvd3MuZXhl&#34;&gt;下载 opencv&lt;/span&gt;&lt;br /&gt;
- 手动配置&lt;br /&gt;
-下载好直接安装&lt;br /&gt;
-安装完回到 VS，右键项目点击属性&lt;br /&gt;
-在 链接器 - 输入 - 附加依赖项 中添加 opencv_world490d.lib&lt;br /&gt;
- 在 VC&lt;ins&gt; 目录 - 包含目录 中添加 安装路径下 build 内 include 目录的路径 | 如 E:\code\cpp\opencv\opencv\build\include&lt;br /&gt;
- 在 VC&lt;/ins&gt; 目录 - 库目录 中添加 安装路径下 build/x64/vc16/lib | 如 E:\code\cpp\opencv\opencv\build\x64\vc16\lib&lt;/p&gt;
-</content>
-        <category term="笔记，计算机科学，计算机图形学" scheme="https://starryxyj.github.io/categories/%E7%AC%94%E8%AE%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" />
-        <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
-        <category term="计算机图形学" scheme="https://starryxyj.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" />
-        <updated>2024-04-19T04:01:05.000Z</updated>
-    </entry>
-    <entry>
         <id>https://starryxyj.github.io/2024/04/19/note/computer-science/computer-graphics/2%E6%A8%A1%E5%9E%8B%E5%8F%98%E6%8D%A2%E4%B8%8E%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2/</id>
         <title>模型变换与视图变换</title>
         <link rel="alternate" href="https://starryxyj.github.io/2024/04/19/note/computer-science/computer-graphics/2%E6%A8%A1%E5%9E%8B%E5%8F%98%E6%8D%A2%E4%B8%8E%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2/"/>
@@ -246,6 +217,35 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
         <category term="计算机图形学" scheme="https://starryxyj.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" />
         <updated>2024-04-19T04:01:05.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2024/04/19/note/computer-science/computer-graphics/1Games101VisualStudio%E4%BD%9C%E4%B8%9A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Games101VisualStudio作业环境搭建</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2024/04/19/note/computer-science/computer-graphics/1Games101VisualStudio%E4%BD%9C%E4%B8%9A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;p&gt;虚拟机的方式虽然环境搭建好了&lt;br /&gt;
+但是网盘要下载很久，虚拟机也相对比较卡顿&lt;br /&gt;
+需要更多的硬盘空间&lt;/p&gt;
+&lt;h2 id=&#34;下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载&#34;&gt;#&lt;/a&gt; 下载&lt;/h2&gt;
+&lt;p&gt;下载 Visual Studio Installer&lt;br /&gt;
+ 选择 C++ 桌面开发&lt;br /&gt;
+下载完打开 Visual Studio&lt;br /&gt;
+ 新建项目，把作业压缩包的文件直接拖到项目里&lt;/p&gt;
+&lt;h2 id=&#34;配置包环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置包环境&#34;&gt;#&lt;/a&gt; 配置包环境&lt;/h2&gt;
+&lt;p&gt;Eigen 可以直接在 nuget 下载&lt;br /&gt;
+下载完要把源代码里所有 eigen3 删去&lt;br /&gt;
+至于 opencv，我直接 nuget 下载会报错&lt;br /&gt;
+所以就直接&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL29wZW5jdi9vcGVuY3YvcmVsZWFzZXMvZG93bmxvYWQvNC45LjAvb3BlbmN2LTQuOS4wLXdpbmRvd3MuZXhl&#34;&gt;下载 opencv&lt;/span&gt;&lt;br /&gt;
+ 手动配置&lt;br /&gt;
+下载好直接安装&lt;br /&gt;
+安装完回到 VS，右键项目点击属性&lt;br /&gt;
+在 链接器 - 输入 - 附加依赖项 中添加 opencv_world490d.lib&lt;br /&gt;
+ 在 VC&lt;ins&gt; 目录 - 包含目录 中添加 安装路径下 build 内 include 目录的路径 | 如 E:\code\cpp\opencv\opencv\build\include&lt;br /&gt;
+ 在 VC&lt;/ins&gt; 目录 - 库目录 中添加 安装路径下 build/x64/vc16/lib | 如 E:\code\cpp\opencv\opencv\build\x64\vc16\lib&lt;/p&gt;
+</content>
+        <category term="笔记，计算机科学，计算机图形学" scheme="https://starryxyj.github.io/categories/%E7%AC%94%E8%AE%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" />
+        <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
+        <category term="计算机图形学" scheme="https://starryxyj.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" />
+        <updated>2024-04-19T03:51:23.000Z</updated>
     </entry>
     <entry>
         <id>https://starryxyj.github.io/2024/04/17/note/art/painting/%E9%80%8F%E8%A7%86%E6%80%BB%E7%BB%93/</id>
