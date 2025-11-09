@@ -8,7 +8,7 @@
     <author>
       <name>咲夜Starry</name>
     </author>
-    <updated>2025-04-20T11:19:31.000Z</updated>
+    <updated>2025-10-14T06:48:31.000Z</updated>
     <category term="日常" />
     <category term="编程" />
     <category term="杂谈" />
@@ -17,9 +17,23 @@
     <category term="Starry" />
     <category term="C#" />
     <entry>
-        <id>https://starryxyj.github.io/2025/04/20/note/Avalonia%E6%9E%84%E5%BB%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%AE%89%E5%8D%93%E7%9A%84%E5%A4%84%E7%90%86/</id>
+        <id>https://starryxyj.github.io/2025/10/14/note/dotnet/avalonia/Avalonia%20Android%20Textbox%E8%BE%93%E5%85%A5%E6%B3%95%E6%8C%89%E6%8D%A2%E8%A1%8C%E6%B6%88%E5%A4%B1/</id>
+        <title>Avalonia Android Textbox输入法按换行消失</title>
+        <link rel="alternate" href="https://starryxyj.github.io/2025/10/14/note/dotnet/avalonia/Avalonia%20Android%20Textbox%E8%BE%93%E5%85%A5%E6%B3%95%E6%8C%89%E6%8D%A2%E8%A1%8C%E6%B6%88%E5%A4%B1/"/>
+        <content type="html">&lt;p&gt;在 xaml 后台初始化时加入&lt;/p&gt;
+&lt;figure class=&#34;highlight cs&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;TextInputOptions&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;SetMultiline&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;textBox&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;TextInputOptions&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;SetReturnKeyType&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;textBox&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; TextInputReturnKeyType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Return&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;其中 textBox 为要修改的 TextBox 的 name&lt;/p&gt;
+</content>
+        <category term="笔记" scheme="https://starryxyj.github.io/categories/note/" />
+        <category term=".NET" scheme="https://starryxyj.github.io/categories/note/dotnet/" />
+        <category term="Avalonia" scheme="https://starryxyj.github.io/categories/note/dotnet/avalonia/" />
+        <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
+        <category term="avalonia" scheme="https://starryxyj.github.io/tags/avalonia/" />
+        <updated>2025-10-14T06:48:31.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://starryxyj.github.io/2025/04/20/note/dotnet/avalonia/Avalonia%E6%9E%84%E5%BB%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%AE%89%E5%8D%93%E7%9A%84%E5%A4%84%E7%90%86/</id>
         <title>Avalonia构建跨平台项目中安卓项目报错的处理</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2025/04/20/note/Avalonia%E6%9E%84%E5%BB%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%AE%89%E5%8D%93%E7%9A%84%E5%A4%84%E7%90%86/"/>
+        <link rel="alternate" href="https://starryxyj.github.io/2025/04/20/note/dotnet/avalonia/Avalonia%E6%9E%84%E5%BB%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%AE%89%E5%8D%93%E7%9A%84%E5%A4%84%E7%90%86/"/>
         <content type="html">&lt;h2 id=&#34;第一步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一步&#34;&gt;#&lt;/a&gt; 第一步&lt;/h2&gt;
 &lt;p&gt;按照&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL2VuLXVzL2RvdG5ldC9hbmRyb2lkL2dldHRpbmctc3RhcnRlZC9pbnN0YWxsYXRpb24vZGVwZW5kZW5jaWVz&#34;&gt; Install .NET for Android dependencies&lt;/span&gt; 安装 Android-SDK&lt;br /&gt;
  然后安装 JDK，去 java 官网安装，同时目前 avalonia 要求的 jdk 版本是 17，注意不要弄错了，虽然可能未来会变吧，当你看到这篇文章的时候&lt;/p&gt;
@@ -30,11 +44,12 @@
 &lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;span&gt;l&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;AndroidSdkDirectory&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;你的SDK路径&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;AndroidSdkDirectory&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;JavaSdkDirectory&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;你的JDK路径&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;JavaSdkDirectory&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;就可以了&lt;br /&gt;
 注意不要直接复制过去就不管了，记得把 “你的 XX 路径” 改成你电脑上这些东西的安装路径&lt;br /&gt;
  OK&lt;br /&gt;
- 然后就不会报错了&lt;/p&gt;
+ 然后就不会报错了&lt;br /&gt;
+ NICE！&lt;/p&gt;
 </content>
         <category term="笔记" scheme="https://starryxyj.github.io/categories/note/" />
         <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
-        <category term="杂" scheme="https://starryxyj.github.io/tags/%E6%9D%82/" />
+        <category term="avalonia" scheme="https://starryxyj.github.io/tags/avalonia/" />
         <updated>2025-04-20T11:19:31.000Z</updated>
     </entry>
     <entry>
@@ -1940,65 +1955,5 @@ alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height
         <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
         <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
         <updated>2013-12-24T16:16:18.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://starryxyj.github.io/2013/12/25/test/tag-plugins/</id>
-        <title>Tag Plugins</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2013/12/25/test/tag-plugins/"/>
-        <content type="html">&lt;p&gt;This post is used for testing tag plugins. See &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3MvdGFnLXBsdWdpbnMuaHRtbA==&#34;&gt;docs&lt;/span&gt; for more info.&lt;/p&gt;
-&lt;h2 id=&#34;block-quote&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#block-quote&#34;&gt;#&lt;/a&gt; Block Quote&lt;/h2&gt;
-&lt;h3 id=&#34;normal-blockquote&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#normal-blockquote&#34;&gt;#&lt;/a&gt; Normal blockquote&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;quote-from-a-book&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quote-from-a-book&#34;&gt;#&lt;/a&gt; Quote from a book&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;David Levithan&lt;/strong&gt;&lt;cite&gt;Wide Awake&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
-&lt;h3 id=&#34;quote-from-twitter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quote-from-twitter&#34;&gt;#&lt;/a&gt; Quote from Twitter&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote&gt;&lt;p&gt;NEW: DevDocs now comes with syntax highlighting. &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2RldmRvY3MuaW8=&#34;&gt;http://devdocs.io&lt;/span&gt;&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;@DevDocs&lt;/strong&gt;&lt;cite&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90d2l0dGVyLmNvbS9kZXZkb2NzL3N0YXR1cy8zNTYwOTUxOTIwODU5NjI3NTI=&#34;&gt;twitter.com/devdocs/status/356095192085962752&lt;/span&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
-&lt;h3 id=&#34;quote-from-an-article-on-the-web&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quote-from-an-article-on-the-web&#34;&gt;#&lt;/a&gt; Quote from an article on the web&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote&gt;&lt;p&gt;Every interaction is both precious and an opportunity to delight.&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Seth Godin&lt;/strong&gt;&lt;cite&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3NldGhnb2Rpbi50eXBlcGFkLmNvbS9zZXRoc19ibG9nLzIwMDkvMDcvd2VsY29tZS10by1pc2xhbmQtbWFya2V0aW5nLmh0bWw=&#34;&gt;Welcome to Island Marketing&lt;/span&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
-&lt;h2 id=&#34;code-block&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#code-block&#34;&gt;#&lt;/a&gt; Code Block&lt;/h2&gt;
-&lt;h3 id=&#34;normal-code-block&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#normal-code-block&#34;&gt;#&lt;/a&gt; Normal code block&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;alert(&#39;Hello World!&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;with-caption&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#with-caption&#34;&gt;#&lt;/a&gt; With caption&lt;/h3&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;array.map(callback[, thisArg])&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;h3 id=&#34;with-caption-and-url&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#with-caption-and-url&#34;&gt;#&lt;/a&gt; With caption and URL&lt;/h3&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;.compact([0, 1, false, 2, ‘’, 3]);
-&amp;#x3D;&amp;gt; [1, 2, 3]&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;h3 id=&#34;with-marked-lines&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#with-marked-lines&#34;&gt;#&lt;/a&gt; With marked lines&lt;/h3&gt;
-&lt;p&gt;Line 1,7-8,10 should be marked with different color.&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;const http &amp;#x3D; require(&amp;#39;http&amp;#39;);
-
-const hostname &amp;#x3D; &amp;#39;127.0.0.1&amp;#39;;
-const port &amp;#x3D; 1337;
-
-http.createServer((req, res) &amp;#x3D;&amp;gt; {
-  res.writeHead(200, { &amp;#39;Content-Type&amp;#39;: &amp;#39;text&amp;#x2F;plain&amp;#39; });
-  res.end(&amp;#39;Hello World\n&amp;#39;);
-}).listen(port, hostname, () &amp;#x3D;&amp;gt; {
-  console.log(&amp;#96;Server running at http:&amp;#x2F;&amp;#x2F;${hostname}:${port}&amp;#x2F;&amp;#96;);
-});&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;Note: Theme&#39;s style should support  &lt;code&gt;.highlight.line.marked&lt;/code&gt;  (recommend to use the selection or current line color).&lt;/p&gt;
-&lt;h3 id=&#34;gist&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gist&#34;&gt;#&lt;/a&gt; Gist&lt;/h3&gt;
-&lt;p&gt;&lt;script src=&#34;//gist.github.com/996818.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;h3 id=&#34;jsfiddle&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jsfiddle&#34;&gt;#&lt;/a&gt; jsFiddle&lt;/h3&gt;
-&lt;p&gt;&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;300&#34; src=&#34;https://jsfiddle.net/ccWP7/embedded/js,resources,html,css,result/light&#34; frameborder=&#34;0&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2 id=&#34;pullquote&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pullquote&#34;&gt;#&lt;/a&gt; Pullquote&lt;/h2&gt;
-&lt;h3 id=&#34;left&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#left&#34;&gt;#&lt;/a&gt; Left&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote class=&#34;pullquote left&#34;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus molestie arcu, et fringilla mauris placerat ac. Nullam luctus bibendum risus. Ut cursus sed ipsum feugiat egestas. Suspendisse elementum, velit eu consequat consequat, augue lorem dapibus libero, eget pulvinar dolor est sit amet nulla. Suspendisse a porta tortor, et posuere mi. Pellentesque ultricies, mi quis volutpat malesuada, erat felis vulputate nisl, ac congue ante tortor ut ante. Proin aliquam sem vel mauris tincidunt, eget scelerisque tortor euismod. Nulla tincidunt enim nec commodo dictum. Mauris id sapien et orci gravida luctus id ut dui. In vel vulputate odio. Duis vel turpis molestie, scelerisque enim eu, lobortis eros. Cras at ipsum gravida, sagittis ante vel, viverra tellus. Nunc mauris turpis, elementum ullamcorper nisl pretium, ultrices cursus justo. Mauris porttitor commodo eros, ac ornare orci interdum in. Cras fermentum cursus leo sed mattis. In dignissim lorem sem, sit amet elementum mauris venenatis ac.&lt;/p&gt;
-&lt;h3 id=&#34;right&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#right&#34;&gt;#&lt;/a&gt; Right&lt;/h3&gt;
-&lt;p&gt;&lt;blockquote class=&#34;pullquote right&#34;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula justo, lobortis sit amet semper vel, dignissim sit amet libero. Praesent ac tempus ligula. Maecenas at gravida odio. Etiam tristique volutpat lacus eu faucibus. Donec non tempus arcu. Phasellus adipiscing, mauris nec mollis egestas, ipsum nunc auctor velit, et rhoncus lorem ipsum at ante. Praesent et sem in velit volutpat auctor. Duis vel mauris nulla. Maecenas mattis interdum ante, quis sagittis nibh cursus et. Nulla facilisi. Morbi convallis gravida tortor, ut fermentum enim gravida et. Nunc vel dictum nisl, non ultrices libero. Proin vestibulum felis eget orci consectetur lobortis. Vestibulum augue nulla, iaculis vitae augue vehicula, dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac magna. Etiam vel pharetra elit.&lt;/p&gt;
-</content>
-        <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
-        <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
-        <updated>2013-12-24T16:14:39.000Z</updated>
     </entry>
 </feed>
