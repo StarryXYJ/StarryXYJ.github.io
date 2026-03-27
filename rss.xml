@@ -20,12 +20,12 @@
         <category term="Starry" />
         <category term="C#" />
         <item>
-            <guid isPermalink="true">https://starryxyj.github.io/2026/03/27/note/dotnet/avalonia/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</guid>
+            <guid isPermalink="true">https://starryxyj.github.io/2026/03/27/note/dotnet/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</guid>
             <title>自动化Nuget发布</title>
-            <link>https://starryxyj.github.io/2026/03/27/note/dotnet/avalonia/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</link>
+            <link>https://starryxyj.github.io/2026/03/27/note/dotnet/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</link>
             <category term="笔记" scheme="https://starryxyj.github.io/categories/note/" />
+            <category term=".NET" scheme="https://starryxyj.github.io/categories/note/dotnet/" />
             <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
-            <category term="dotnet" scheme="https://starryxyj.github.io/tags/dotnet/" />
             <pubDate>Fri, 27 Mar 2026 19:19:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;使用-minver-nuget-github-actions-实现-net-库自动化发布&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-minver-nuget-github-actions-实现-net-库自动化发布&#34;&gt;#&lt;/a&gt; 使用 MinVer + NuGet + GitHub Actions 实现 .NET 库自动化发布&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
@@ -361,6 +361,8 @@ chore: 构建/工具相关
             <title>Avalonia构建跨平台项目中安卓项目报错的处理</title>
             <link>https://starryxyj.github.io/2025/04/20/note/dotnet/avalonia/Avalonia%E6%9E%84%E5%BB%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%AE%89%E5%8D%93%E7%9A%84%E5%A4%84%E7%90%86/</link>
             <category term="笔记" scheme="https://starryxyj.github.io/categories/note/" />
+            <category term=".NET" scheme="https://starryxyj.github.io/categories/note/dotnet/" />
+            <category term="Avalonia" scheme="https://starryxyj.github.io/categories/note/dotnet/avalonia/" />
             <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
             <category term="avalonia" scheme="https://starryxyj.github.io/tags/avalonia/" />
             <pubDate>Sun, 20 Apr 2025 19:19:31 +0800</pubDate>

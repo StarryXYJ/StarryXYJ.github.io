@@ -17,9 +17,9 @@
     <category term="Starry" />
     <category term="C#" />
     <entry>
-        <id>https://starryxyj.github.io/2026/03/27/note/dotnet/avalonia/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</id>
+        <id>https://starryxyj.github.io/2026/03/27/note/dotnet/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</id>
         <title>自动化Nuget发布</title>
-        <link rel="alternate" href="https://starryxyj.github.io/2026/03/27/note/dotnet/avalonia/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/"/>
+        <link rel="alternate" href="https://starryxyj.github.io/2026/03/27/note/dotnet/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/"/>
         <content type="html">&lt;h1 id=&#34;使用-minver-nuget-github-actions-实现-net-库自动化发布&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-minver-nuget-github-actions-实现-net-库自动化发布&#34;&gt;#&lt;/a&gt; 使用 MinVer + NuGet + GitHub Actions 实现 .NET 库自动化发布&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;利用 &lt;strong&gt;MinVer&lt;/strong&gt;、&lt;strong&gt;NuGet&lt;/strong&gt; 和 &lt;strong&gt;GitHub Actions&lt;/strong&gt; 实现一套完整的自动化发布流程&lt;/p&gt;
@@ -326,8 +326,8 @@ chore: 构建/工具相关
 &lt;/ul&gt;
 </content>
         <category term="笔记" scheme="https://starryxyj.github.io/categories/note/" />
+        <category term=".NET" scheme="https://starryxyj.github.io/categories/note/dotnet/" />
         <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
-        <category term="dotnet" scheme="https://starryxyj.github.io/tags/dotnet/" />
         <updated>2026-03-27T11:19:31.000Z</updated>
     </entry>
     <entry>
@@ -371,6 +371,8 @@ chore: 构建/工具相关
  NICE！&lt;/p&gt;
 </content>
         <category term="笔记" scheme="https://starryxyj.github.io/categories/note/" />
+        <category term=".NET" scheme="https://starryxyj.github.io/categories/note/dotnet/" />
+        <category term="Avalonia" scheme="https://starryxyj.github.io/categories/note/dotnet/avalonia/" />
         <category term="笔记" scheme="https://starryxyj.github.io/tags/%E7%AC%94%E8%AE%B0/" />
         <category term="avalonia" scheme="https://starryxyj.github.io/tags/avalonia/" />
         <updated>2025-04-20T11:19:31.000Z</updated>
