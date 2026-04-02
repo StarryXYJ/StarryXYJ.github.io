@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>咲夜Starry的博客喵</title>
+        <title>咲夜Starry</title>
         <subtitle></subtitle>
         <icon>https://starryxyj.github.io/assets/favicon.ico</icon>
         <link>https://starryxyj.github.io</link>
@@ -10,8 +10,8 @@
         </author>
         <description>记录生活，总结见闻</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 27 Mar 2026 19:19:31 +0800</pubDate>
-        <lastBuildDate>Fri, 27 Mar 2026 19:19:31 +0800</lastBuildDate>
+        <pubDate>Sat, 17 Jul 2077 23:59:59 +0800</pubDate>
+        <lastBuildDate>Sat, 17 Jul 2077 23:59:59 +0800</lastBuildDate>
         <category term="日常" />
         <category term="编程" />
         <category term="杂谈" />
@@ -19,6 +19,62 @@
         <category term="咲夜" />
         <category term="Starry" />
         <category term="C#" />
+        <item>
+            <guid isPermalink="true">https://starryxyj.github.io/2077/07/17/bio/</guid>
+            <title>咲夜的自我介绍</title>
+            <link>https://starryxyj.github.io/2077/07/17/bio/</link>
+            <category term="自我介绍" scheme="https://starryxyj.github.io/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/" />
+            <pubDate>Sat, 17 Jul 2077 23:59:59 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h2&gt;
+&lt;p&gt;哈喽啊，这里是咲夜Starry，感谢你来到我的博客，我会在这里分享一些学习经验或者一些我的项目，可能也会有一些杂谈或者文学作品什么的&lt;/p&gt;
+&lt;p&gt;作为一名nacg爱好者，虽然可能漫画看的比较少，接触的动画、小说、游戏感觉还是蛮多的，但是毕竟学校一直在国内，时间没那么多，很多作品也还得现在慢慢补了&lt;/p&gt;
+&lt;p&gt;同时作为一名技术宅，平常也做过不少项目，这部分就留到后面具体介绍了。至于宅的部分，以前确实出门或者去上学的动力很不足，加上心理障碍等，不登校了也是。现在相对自由点了，压力没那么大了，有时候是会出去走走，不过可能还是在屋子里敲代码打电动看作品的时间比较长，另外社交这一块也是苦手了&lt;/p&gt;
+&lt;h2 id=&#34;技术tags&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#技术tags&#34;&gt;#&lt;/a&gt; 技术Tags&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pro(?): dotnet(avalonia/WPF/MAUI)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Plus: &lt;a href=&#34;http://asp.net&#34;&gt;asp.net&lt;/a&gt;, unity, shader&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basic: python, golang, vue、react、ts, UE, c/cpp&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use: Java, Lua&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;现状们&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#现状们&#34;&gt;#&lt;/a&gt; 现状们&lt;/h2&gt;
+&lt;h3 id=&#34;为什么是们&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么是们&#34;&gt;#&lt;/a&gt; 为什么是&amp;quot;们&amp;quot;&lt;/h3&gt;
+&lt;p&gt;现状肯定是要更新的，但是其实旧的记录也不是很想删除，就归档于此吧&lt;/p&gt;
+&lt;h3 id=&#34;2026-初春&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2026-初春&#34;&gt;#&lt;/a&gt; 2026 初春&lt;/h3&gt;
+&lt;p&gt;写下这段文字的时候是2026年春，还是一名苦逼的上海大学生，享受着大城市的物价和郊区的生活，也是正在寻找实习与工作，但其实还是比较矛盾的，如果真的找到了工作，学校这边估计得做一些交接，毕竟很多课没法上了，考勤感觉问题不太大，但是有些课又不得不去，bad&lt;/p&gt;
+&lt;p&gt;说实话大学现在也没那么想上，学到的没多少，神人又不少，无论是老师还是什么；住宿环境一般的同时，又有很多人没什么素质，外卖也是已经被偷了好几次了唉。加上在学校的社交也&lt;/p&gt;
+&lt;p&gt;如果可以找到稳定的工作，或者自己的项目有成果，有稳定的收入就好了啊&lt;/p&gt;
+&lt;h2 id=&#34;项目们&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目们&#34;&gt;#&lt;/a&gt; 项目们&lt;/h2&gt;
+&lt;p&gt;你可以在博客中找到项目分类来查看到我对于项目们的一些不太官方的阐述，或者一些小趣事什么的&lt;/p&gt;
+&lt;p&gt;这里就是单纯的简单列举了&lt;/p&gt;
+&lt;h3 id=&#34;开源项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开源项目&#34;&gt;#&lt;/a&gt; 开源项目&lt;/h3&gt;
+&lt;p&gt;喜欢的话可以点点Star吗&lt;/p&gt;
+&lt;p&gt;爱你哦 ❤️&lt;/p&gt;
+&lt;h4 id=&#34;autosettingui&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#autosettingui&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://github.com/StarryXYJ/AutoSettingUI&#34;&gt;AutoSettingUI&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;这是一个.NET下，根据配置类自动生成配置UI的项目&lt;/p&gt;
+&lt;h4 id=&#34;dynamiclocalization&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dynamiclocalization&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://github.com/StarryXYJ/DynamicLocalization&#34;&gt;DynamicLocalization&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;这是一个基于.NET的方便的热更新i18n解决方案&lt;/p&gt;
+&lt;h4 id=&#34;universecreator&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#universecreator&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://github.com/StarryXYJ/UniverseCreator&#34;&gt;UniverseCreator&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;(如果你发现打不开这个链接，没关系，说明项目还没正式完工，我准备做得差不多了再public)&lt;br /&gt;
+这是一个世界观的编辑器，包括了词条的编辑，时间线的实现，以及关系图的生成，支持插件(也许会支持热重载，相当于对自己的一个考验了，做不了就算了，也不是什么特别重要的hmm)&lt;/p&gt;
+&lt;h4 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h4&gt;
+&lt;p&gt;能拿得出手的开源项目目前就这些&lt;/p&gt;
+&lt;p&gt;早期黑历史就不放了，另外值得一提的是其实早期我用的是另一个github账号，当时好像强制开了二次验证，但开完后我手机因为一些问题刷机了，然后误打误撞又把邮箱还是手机号解绑了，导致一直过不了，才有了现在这个github号(悲&lt;/p&gt;
+&lt;p&gt;以后闲着的时候试试能不能再登录或者申诉了，不过也不算那么有价值（？&lt;/p&gt;
+&lt;h3 id=&#34;闭源项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#闭源项目&#34;&gt;#&lt;/a&gt; 闭源项目&lt;/h3&gt;
+&lt;h4 id=&#34;无限梦&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无限梦&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://space.bilibili.com/426181974/lists/4630793?type=series&#34;&gt;无限梦&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;这是我在东华的学长主导的项目，一个横板跳跃结合音游的游戏，设计很有意思&lt;/p&gt;
+&lt;h4 id=&#34;其他-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他-2&#34;&gt;#&lt;/a&gt; 其他&lt;/h4&gt;
+&lt;p&gt;项目先写到这，以后慢慢补充XD&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://starryxyj.github.io/2026/03/27/note/dotnet/%E8%87%AA%E5%8A%A8%E5%8C%96Nuget%E5%8F%91%E5%B8%83/</guid>
             <title>自动化Nuget发布</title>
@@ -594,7 +650,24 @@
             <category term="项目" scheme="https://starryxyj.github.io/categories/project/" />
             <category term="项目" scheme="https://starryxyj.github.io/tags/%E9%A1%B9%E7%9B%AE/" />
             <pubDate>Fri, 20 Mar 2026 18:36:00 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;h2 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/StarryXYJ/AutoSettingUI&#34;&gt;AutoSettingUI Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个项目是根据一些现有的配置类快速生成配置控件的类库，运用上我觉得还是特别方便的，而且也是因为我自己的另一个项目中有运用，也感觉有一定的通用性所以抽出来的项目&lt;/p&gt;
+&lt;h2 id=&#34;功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能&#34;&gt;#&lt;/a&gt; 功能&lt;/h2&gt;
+&lt;p&gt;使用本项目你大概可以做到：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在开发中可以方便地配置一些数据查看变化等，类似Unity的Inspector&lt;/li&gt;
+&lt;li&gt;动态生成配置UI可以方便地实现插件的配置项注入以及辅助热重载插件&lt;/li&gt;
+&lt;li&gt;少些好多UI，然后工作继续摸鱼&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;具体项目使用的介绍在github的readme，这里就不赘述了&lt;/p&gt;
+&lt;h2 id=&#34;神秘低语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#神秘低语&#34;&gt;#&lt;/a&gt; 神秘低语&lt;/h2&gt;
+&lt;p&gt;另外理论上的项目测试版其实是nuget的正式版，~~ 可能因为我对自己太自信了(bushi) ~~  所以请尽量使用最新版，未来也是，不过目前应该已经不太会有破坏性更新了，有的话可能会在github issue贴出来&lt;/p&gt;
+&lt;p&gt;目前也是只有2个star，还有一个是自己的...&lt;/p&gt;
+&lt;p&gt;项目为了支持AOT，也是使用了源码生成器，虽然有蛮多是AI写的，毕竟工作量太大了。但这还是挺困难的，尤其是AOT的构建，让我感觉我似乎在做硬件开发——只有构建（烧录）完才能查看结果，构建（烧录）一次要很久&lt;/p&gt;
+&lt;p&gt;那就介绍到这了嘻嘻&lt;/p&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://starryxyj.github.io/2025/10/14/note/dotnet/avalonia/Avalonia%20Android%20Textbox%E8%BE%93%E5%85%A5%E6%B3%95%E6%8C%89%E6%8D%A2%E8%A1%8C%E6%B6%88%E5%A4%B1/</guid>
@@ -636,7 +709,7 @@
         </item>
         <item>
             <guid isPermalink="true">https://starryxyj.github.io/2025/01/14/talk/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A%E6%98%AF%E4%BB%BB%E4%BD%95%E5%9B%A2%E9%98%9F%E5%90%88%E4%BD%9C%E4%B8%AD%E7%9A%84%E6%88%90%E6%9E%9C%E5%85%B3%E9%94%AE/</guid>
-            <title>为什么说有效沟通是任何团队合作中的成果关键</title>
+            <title>有效沟通重点在有效而不是沟通</title>
             <link>https://starryxyj.github.io/2025/01/14/talk/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A%E6%98%AF%E4%BB%BB%E4%BD%95%E5%9B%A2%E9%98%9F%E5%90%88%E4%BD%9C%E4%B8%AD%E7%9A%84%E6%88%90%E6%9E%9C%E5%85%B3%E9%94%AE/</link>
             <category term="杂谈" scheme="https://starryxyj.github.io/categories/talk/" />
             <category term="杂谈" scheme="https://starryxyj.github.io/tags/%E6%9D%82%E8%B0%88/" />
@@ -2514,221 +2587,6 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;default&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; True&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;auto&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; no&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt;counter&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; 1_000&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://starryxyj.github.io/2018/07/24/test/markdown/</guid>
-            <title>Markdown Style test</title>
-            <link>https://starryxyj.github.io/2018/07/24/test/markdown/</link>
-            <category term="测试" scheme="https://starryxyj.github.io/categories/test/" />
-            <category term="测试" scheme="https://starryxyj.github.io/tags/%E6%B5%8B%E8%AF%95/" />
-            <pubDate>Tue, 24 Jul 2018 23:31:06 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;headers&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#headers&#34;&gt;#&lt;/a&gt; Headers&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; H1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;##&lt;/span&gt; H2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;###&lt;/span&gt; H3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;####&lt;/span&gt; H4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#####&lt;/span&gt; H5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;######&lt;/span&gt; H6&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Alternatively, for H1 and H2, an underline-ish style:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;Alt-H1&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;======&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;Alt-H2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;------&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;h1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h1&#34;&gt;#&lt;/a&gt; H1&lt;/h1&gt;
-&lt;h2 id=&#34;h2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h2&#34;&gt;#&lt;/a&gt; H2&lt;/h2&gt;
-&lt;h3 id=&#34;h3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h3&#34;&gt;#&lt;/a&gt; H3&lt;/h3&gt;
-&lt;h4 id=&#34;h4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h4&#34;&gt;#&lt;/a&gt; H4&lt;/h4&gt;
-&lt;h5 id=&#34;h5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h5&#34;&gt;#&lt;/a&gt; H5&lt;/h5&gt;
-&lt;h6 id=&#34;h6&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h6&#34;&gt;#&lt;/a&gt; H6&lt;/h6&gt;
-&lt;p&gt;Alternatively, for H1 and H2, an underline-ish style:&lt;/p&gt;
-&lt;h1 id=&#34;alt-h1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#alt-h1&#34;&gt;#&lt;/a&gt; Alt-H1&lt;/h1&gt;
-&lt;h2 id=&#34;alt-h2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#alt-h2&#34;&gt;#&lt;/a&gt; Alt-H2&lt;/h2&gt;
-&lt;h2 id=&#34;emphasis&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#emphasis&#34;&gt;#&lt;/a&gt; Emphasis&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Emphasis, aka italics, with &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;asterisks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt; or &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;underscores&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Strong emphasis, aka bold, with &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;asterisks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;/span&gt; or &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;__&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;underscores&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;__&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Combined emphasis with &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;asterisks and &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;underscores&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Strikethrough uses two tildes. &lt;span class=&#34;token strike&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;~~&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;Scratch this.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;~~&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Strikethrough uses two tildes. &lt;s&gt;Scratch this.&lt;/s&gt;&lt;/p&gt;
-&lt;h2 id=&#34;lists&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lists&#34;&gt;#&lt;/a&gt; Lists&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; First ordered list item&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; Another item&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token list punctuation&#34;&gt;*&lt;/span&gt; Unordered sub-list.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; Actual numbers don&#39;t matter, just that it&#39;s a number&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; Ordered sub-list&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;4.&lt;/span&gt; And another item.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&#39;ll use three here to also align the raw Markdown).&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   To have a line break without a paragraph, you will need to use two trailing spaces.  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   Note that this line is separate, but within the same paragraph.  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;*&lt;/span&gt; Unordered list can use asterisks&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Or minuses&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;+&lt;/span&gt; Or pluses&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Paragraph In unordered list&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  For example like this.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Common Paragraph with some text.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;And more text.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
-&lt;li&gt;First ordered list item&lt;/li&gt;
-&lt;li&gt;Another item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Unordered sub-list.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Actual numbers don&#39;t matter, just that it&#39;s a number&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ordered sub-list&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;And another item.&lt;/p&gt;
-&lt;p&gt;You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&#39;ll use three here to also align the raw Markdown).&lt;/p&gt;
-&lt;p&gt;To have a line break without a paragraph, you will need to use two trailing spaces.&lt;br /&gt;
-Note that this line is separate, but within the same paragraph.&lt;br /&gt;
-(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Unordered list can use asterisks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Or minuses&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Or pluses&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Paragraph In unordered list&lt;/p&gt;
-&lt;p&gt;For example like this.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Common Paragraph with some text.&lt;br /&gt;
-And more text.&lt;/p&gt;
-&lt;h2 id=&#34;inline-html&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#inline-html&#34;&gt;#&lt;/a&gt; Inline HTML&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;To reboot your computer, press &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;ctrl&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;+&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;alt&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;+&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;del&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&amp;lt;p&amp;gt;To reboot your computer, press &amp;lt;kbd&amp;gt;ctrl&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;alt&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;del&amp;lt;/kbd&amp;gt;.&amp;lt;/p&amp;gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dl&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Definition list&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Is something people use sometimes.&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token code keyword&#34;&gt;    &amp;lt;dt&gt;Markdown in HTML&amp;lt;/dt&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &amp;lt;dd&gt;Does *not* work **very** well. Use HTML &amp;lt;em&gt;tags&amp;lt;/em&gt;.&amp;lt;/dd&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dl&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&amp;lt;dl&amp;gt;&lt;br /&gt;
-&amp;lt;dt&amp;gt;Definition list&amp;lt;/dt&amp;gt;&lt;br /&gt;
-&amp;lt;dd&amp;gt;Is something people use sometimes.&amp;lt;/dd&amp;gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;dt&amp;gt;Markdown in HTML&amp;lt;/dt&amp;gt;
-&amp;lt;dd&amp;gt;Does *not* work **very** well. Use HTML &amp;lt;em&amp;gt;tags&amp;lt;/em&amp;gt;.&amp;lt;/dd&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&amp;lt;/dl&amp;gt;&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#links&#34;&gt;#&lt;/a&gt; Links&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m an inline-style link&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://www.google.com&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m an inline-style link with title&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://www.google.com&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Google&#39;s Homepage&#34;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m a reference-style link&lt;/span&gt;][&lt;span class=&#34;token variable&#34;&gt;Arbitrary case-insensitive reference text&lt;/span&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m a relative reference to a repository file&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;../blob/master/LICENSE&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;You can use numbers for reference-style link definitions&lt;/span&gt;][&lt;span class=&#34;token variable&#34;&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Or leave it empty and use the [link text itself]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Some text to show that the reference links can follow later.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;arbitrary case-insensitive reference text&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io/docs/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;link text itself&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io/api/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==&#34;&gt;I&#39;m an inline-style link&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==&#34;&gt;I&#39;m an inline-style link with title&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlv&#34;&gt;I&#39;m a reference-style link&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../blob/master/LICENSE&#34;&gt;I&#39;m a relative reference to a repository file&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;You can use numbers for reference-style link definitions&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Or leave it empty and use the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2FwaS8=&#34;&gt;link text itself&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Some text to show that the reference links can follow later.&lt;/p&gt;
-&lt;h2 id=&#34;images&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#images&#34;&gt;#&lt;/a&gt; Images&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hover to see the title text:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Inline-style:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;[&lt;span class=&#34;token content&#34;&gt;alt text&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://hexo.io/icon/favicon-196x196.png&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Logo Title Text 1&#34;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Reference-style:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;[&lt;span class=&#34;token content&#34;&gt;alt text&lt;/span&gt;][&lt;span class=&#34;token variable&#34;&gt;logo&lt;/span&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;logo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io/icon/favicon-196x196.png &lt;span class=&#34;token string&#34;&gt;&#34;Logo Title Text 2&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;hover to see the title text:&lt;/p&gt;
-&lt;p&gt;Inline-style:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://hexo.io/icon/favicon-196x196.png&#34; alt=&#34;alt text&#34; title=&#34;Logo Title Text 1&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Reference-style:&lt;br /&gt;
-&lt;img data-src=&#34;https://hexo.io/icon/favicon-196x196.png&#34; alt=&#34;alt text&#34; title=&#34;Logo Title Text 2&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;code-and-syntax-highlighting&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#code-and-syntax-highlighting&#34;&gt;#&lt;/a&gt; Code and Syntax Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline  &lt;code&gt;code&lt;/code&gt;  has  &lt;code&gt;back-ticks around&lt;/code&gt;  it.&lt;/p&gt;
-&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;JavaScript syntax highlighting&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Python syntax highlighting&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt; s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;pre&gt;&lt;code&gt;No language indicated, so no syntax highlighting.
-But let&#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;tables&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tables&#34;&gt;#&lt;/a&gt; Tables&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table&#34;&gt;&lt;span class=&#34;token table-header-row&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt;                &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt;ASCII                          &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt;HTML                         &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-line&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;----------------&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-------------------------------&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-----------------------------&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-data-rows&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;Single backticks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token code-snippet code keyword&#34;&gt;`&#39;Isn&#39;t this fun?&#39;`&lt;/span&gt;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&#39;Isn&#39;t this fun?&#39;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;Quotes          &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token code-snippet code keyword&#34;&gt;`&#34;Isn&#39;t this fun?&#34;`&lt;/span&gt;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&#34;Isn&#39;t this fun?&#34;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;Dashes          &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token code-snippet code keyword&#34;&gt;`-- is en-dash, --- is em-dash`&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;-- is en-dash, --- is em-dash&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;ASCII&lt;/th&gt;
-&lt;th&gt;HTML&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Single backticks&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;&#39;Isn&#39;t this fun?&#39;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&#39;Isn&#39;t this fun?&#39;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Quotes&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;&amp;quot;Isn&#39;t this fun?&amp;quot;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&amp;quot;Isn&#39;t this fun?&amp;quot;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Dashes&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;-- is en-dash, --- is em-dash&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;-- is en-dash, --- is em-dash&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Colons can be used to align columns.&lt;/p&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table&#34;&gt;&lt;span class=&#34;token table-header-row&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Tables        &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Are           &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Cool  &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-line&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;-------------&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:-------------:&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;-----:&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-data-rows&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; col 3 is      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; right-aligned &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; col 2 is      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; centered      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; zebra stripes &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; are neat      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Tables&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Are&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;Cool&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;col 3 is&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;right-aligned&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;col 2 is&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;centered&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;zebra stripes&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;are neat&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;The outer pipes (&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;) are optional, and you don&#39;t need to make the raw Markdown line up prettily. You can also use inline Markdown.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table&#34;&gt;&lt;span class=&#34;token table-header-row&#34;&gt;&lt;span class=&#34;token table-header important&#34;&gt;Markdown &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Less &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Pretty&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-line&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-data-rows&#34;&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;Still&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`renders`&lt;/span&gt; &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;nicely&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table-data&#34;&gt;1 &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; 2 &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; 3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Markdown&lt;/th&gt;
-&lt;th&gt;Less&lt;/th&gt;
-&lt;th&gt;Pretty&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt;Still&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;renders&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;nicely&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You can find more information about &lt;strong&gt;LaTeX&lt;/strong&gt; mathematical expressions &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXRoLm1ldGEuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzUwMjAvbWF0aGpheC1iYXNpYy10dXRvcmlhbC1hbmQtcXVpY2stcmVmZXJlbmNl&#34;&gt;here&lt;/span&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;blockquotes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#blockquotes&#34;&gt;#&lt;/a&gt; Blockquotes&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Blockquotes are very handy in email to emulate reply text.&lt;br /&gt;
-This line is part of the same quote.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Quote break.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a very long line that will still be quoted properly when it wraps. Oh boy let&#39;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em&gt;put&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt; into a blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;horizontal-rule&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#horizontal-rule&#34;&gt;#&lt;/a&gt; Horizontal Rule&lt;/h2&gt;
-&lt;p&gt;Three or more...&lt;/p&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token hr punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hyphens&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token hr punctuation&#34;&gt;***&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Asterisks&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;___&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Underscores&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
-&lt;p&gt;Hyphens&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Asterisks&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Underscores&lt;/p&gt;
-&lt;h2 id=&#34;line-breaks&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#line-breaks&#34;&gt;#&lt;/a&gt; Line Breaks&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Here&#39;s a line for us to start with.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This line is separated from the one above by two newlines, so it will be a &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;separate paragraph&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This line is also a separate paragraph, but...&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This line is only separated by a single newline, so it&#39;s a separate line in the &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;same paragraph&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Here&#39;s a line for us to start with.&lt;/p&gt;
-&lt;p&gt;This line is separated from the one above by two newlines, so it will be a &lt;em&gt;separate paragraph&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;This line is also a separate paragraph, but...&lt;br /&gt;
-This line is only separated by a single newline, so it&#39;s a separate line in the &lt;em&gt;same paragraph&lt;/em&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This is a regular paragraph.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;table&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Foo&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;table&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This is another regular paragraph.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;This is a regular paragraph.&lt;/p&gt;
-&lt;p&gt;&amp;lt;table&amp;gt;&lt;br /&gt;
-&amp;lt;tr&amp;gt;&lt;br /&gt;
-&amp;lt;td&amp;gt;Foo&amp;lt;/td&amp;gt;&lt;br /&gt;
-&amp;lt;/tr&amp;gt;&lt;br /&gt;
-&amp;lt;/table&amp;gt;&lt;/p&gt;
-&lt;p&gt;This is another regular paragraph.&lt;/p&gt;
-&lt;h2 id=&#34;youtube-videos&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#youtube-videos&#34;&gt;#&lt;/a&gt; Youtube videos&lt;/h2&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=ARted4RniaU&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;target&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;_blank&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token attr-name&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;IMAGE ALT TEXT HERE&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;240&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;180&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;border&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;10&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Pure markdown version:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;![IMAGE ALT TEXT HERE&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;/span&gt;)&lt;/span&gt;](https://www.youtube.com/watch?v=ARted4RniaU)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&amp;lt;a href=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/ZmVhdHVyZT1wbGF5ZXJfZW1iZWRkZWQmYW1wO3Y9QVJ0ZWQ0Um5pYVU=&#34;&gt;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=ARted4RniaU&lt;/span&gt;&lt;br /&gt;
-&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcueW91dHViZS5jb20vdmkvQVJ0ZWQ0Um5pYVUvMC5qcGc=&#34;&gt;https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;/span&gt;&amp;quot;&lt;br /&gt;
-alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;180&amp;quot; border=&amp;quot;10&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;
-&lt;p&gt;Pure markdown version:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ARted4RniaU&#34;&gt;&lt;img data-src=&#34;https://img.youtube.com/vi/ARted4RniaU/0.jpg&#34; alt=&#34;IMAGE ALT TEXT HERE&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
