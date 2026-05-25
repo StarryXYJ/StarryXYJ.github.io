@@ -1,0 +1,248 @@
+alternate: 咲夜Starry的博客喵
+
+statics: "/"
+assets: "assets"
+css: "css"
+js: "js"
+
+open_graph:
+
+grayMode: false
+
+pwa:
+  enable: false
+  serviceworker: sw.js
+  manifest: manifest.json
+
+experiments:
+  mobileWidth: 820px
+  copyrightLength: 50
+  antiFakeWebsite: true
+
+homeConfig:
+  gradient: false
+  fixedCover: ""
+  coverConfig:
+    enableCover: true
+    enablePreload: true
+    enableNextGradientCover: false
+  cateCards:
+    - slug:
+      cover:
+
+modules:
+  debug: false
+  player: true
+  fireworks: true
+  visibilityListener: true
+  tabs: true
+  quiz: true
+  cloudflarePatch: false
+
+performance:
+  preConnect:
+    - "https://s4.zstatic.net"
+    - "https://at.alicdn.com"
+  dnsPrefetch:
+
+playerAPI: "https://api.injahow.cn"
+
+icon:
+  favicon: "/favicon.ico"
+  apple_touch_icon: "/apple-touch-icon.png"
+
+seo:
+  bing:
+  google:
+  yandex:
+  baidu:
+
+visitor:
+  clarity: false
+  baiduAnalytics: false
+  googleAnalytics: false
+
+darkmode: true
+auto_dark:
+  enable: true
+  start: 20
+  end: 7
+
+auto_scroll: false
+
+loader:
+  start: false
+  switch: false
+
+fireworks:
+  enable: true
+  options:
+    excludeElements: ["a"]
+    particles:
+      - shape: circle
+        move: ["emit"]
+        easing: easeOutExpo
+        colors:
+          - "rgba(255,182,185,.9)"
+          - "rgba(250,227,217,.9)"
+          - "rgba(187,222,214,.9)"
+          - "rgba(138,198,209,.9)"
+        number: 30
+        duration: [1200, 1800]
+        shapeOptions:
+          radius: [16, 32]
+      - shape: circle
+        move: ["diffuse"]
+        easing: easeOutExpo
+        colors: ["#fff"]
+        number: 1
+        duration: [1200, 1800]
+        shapeOptions:
+          radius: 20
+          alpha: 0.5
+          lineWidth: 6
+
+font:
+  enable: true
+  loadFromGoogle: true
+  global:
+    external: true
+    family: Mulish
+    size:
+  logo:
+    external: true
+    family: Fredericka the Great
+    size: 3.5
+  title:
+    external: true
+    family: Noto Serif JP
+    size: 2.5
+  headings:
+    external: true
+    family: Noto Serif SC
+    size:
+  posts:
+    external: false
+    family:
+  codes:
+    external: true
+    family: Inconsolata
+
+iconfont: "4415496_59g1326wajd"
+
+menu:
+  home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  friends: /friends/ || heart
+
+twikoo:
+  enable: false
+  mode: vercel
+  envId: "https://example.com"
+  region:
+
+waline:
+  enable: false
+  serverURL: ""
+  lang: "zh-CN"
+  locale: {}
+  emoji:
+  meta:
+    - nick
+    - mail
+    - link
+  requiredMeta:
+    - nick
+    - mail
+  wordLimit: 0
+  pageSize: 10
+  pageview: false
+  recaptchaV3Key:
+  turnstileKey:
+
+summary:
+  enable: false
+  introduce: ""
+  model:
+  apiKey:
+  apiUrl:
+  temperature:
+  initalPrompt:
+  concurrency: 5
+
+pagefind:
+  enable: false
+
+social:
+  github: https://github.com/StarryXYJ || github || "#191717"
+
+sidebar:
+  position: left
+  avatar: avatar.png
+
+widgets:
+  random_posts: true
+  recent_comments: true
+
+footer:
+  since: 2022
+  icon:
+    name: sakura rotate
+    color: "#ffc0cb"
+  count: true
+  powered: true
+  icp:
+    enable: false
+    icon: ""
+    icpnumber: "xxx"
+    beian: "xxx"
+    recordcode: "xxx"
+
+post:
+  count: true
+
+outime:
+  enable: false
+  days: 90
+
+reward:
+  enable: true
+  account:
+    wechatpay: /wechatpay.png
+    alipay: /alipay.png
+
+tagcloud:
+  min: 16
+  max: 22
+  start: "#72cecf"
+  end: "#ffbac3"
+  amount: 200
+
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+
+audio:
+
+search:
+  hits:
+    per_page: 10
+
+vendors:
+  cdns:
+    cdnjs: https://s4.zstatic.net/ajax/libs
+  js:
+  async_js:
+    copy_tex:
+      source: cdnjs
+      url: KaTeX/0.16.9/contrib/copy-tex.min.js
+      sri: "sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A"
+  css:
+    katex:
+      source: cdnjs
+      url: KaTeX/0.16.9/katex.min.css
+      sri: "sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
