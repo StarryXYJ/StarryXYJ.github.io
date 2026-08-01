@@ -17,7 +17,7 @@ pwa:
 experiments:
   mobileWidth: 820px
   copyrightLength: 50
-  antiFakeWebsite: true
+  antiFakeWebsite: false
 
 homeConfig:
   gradient: false
